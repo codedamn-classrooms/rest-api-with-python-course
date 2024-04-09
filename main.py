@@ -8,6 +8,6 @@ def fetch_official_name(country):
 
 
 # Sample Outputs
-fetch_official_name('USA') # Output: United States of America
-fetch_official_name('Brazil') # Output: Federative Republic of Brazil
-fetch_official_name('France') # Output: French Republic
+print(fetch_official_name('USA')) # Output: United States of America
+print(fetch_official_name('Brazil')) # Output: Federative Republic of Brazil
+print(fetch_official_name('France')) # Output: French Republic
