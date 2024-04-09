@@ -1,0 +1,3 @@
+tabs: ["main.py"]
+terminals: ["pip install -r requirements.txt"]
+run-button: python3 main.py
