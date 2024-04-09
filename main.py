@@ -1,6 +1,13 @@
 import requests
 
-# send a response to the given API link to fetch details of Japan
-request = # Write your code here
+def fetch_official_name(country):
 
-response = request.json()
+    # write your code here
+
+    pass
+
+
+# Sample Outputs
+fetch_official_name('USA') # Output: United States of America
+fetch_official_name('Brazil') # Output: Federative Republic of Brazil
+fetch_official_name('France') # Output: French Republic
