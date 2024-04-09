@@ -1,12 +1,13 @@
 import requests
 
-def send_name(name):
-    # write your code here
+
+def fetch_temperature(country):
+
+    # fetch latitude and longitude of the capital of the country from restcountries api
+
+    # fetch the temperature of the capital of the country using the latitude and longitude
+
     pass
 
-
-# Sample Tests
-# The function should return valid json response from API
-print(send_name('jack beyer'))
-print(send_name('scott manely'))
-print(send_name('tim dodd'))
+# Sample Test
+print(fetch_temperature('usa'))
